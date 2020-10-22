@@ -1,16 +1,16 @@
 <?php
 
-namespace app\modules\hr;
+namespace app\modules\hrm\stock;
 
 /**
- * hr module definition class
+ * stock module definition class
  */
 class Module extends \yii\base\Module
 {
     /**
      * {@inheritdoc}
      */
-    public $controllerNamespace = 'app\modules\hr\controllers';
+    public $controllerNamespace = 'app\modules\hrm\stock\controllers';
 
     /**
      * {@inheritdoc}

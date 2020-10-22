@@ -1,13 +1,13 @@
 <?php
 
-namespace app\modules\hr\models;
+namespace app\modules\hrm\setting\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\hr\models\Settings;
+use app\modules\hrm\setting\models\Settings;
 
 /**
- * SettingsSearch represents the model behind the search form of `app\modules\hr\models\Settings`.
+ * SettingsSearch represents the model behind the search form of `app\modules\setting\models\Settings`.
  */
 class SettingsSearch extends Settings
 {

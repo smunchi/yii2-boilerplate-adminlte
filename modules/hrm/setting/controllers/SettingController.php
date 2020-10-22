@@ -1,18 +1,18 @@
 <?php
 
-namespace app\modules\hr\controllers;
+namespace app\modules\hrm\setting\controllers;
 
 use Yii;
-use app\modules\hr\models\Settings;
-use app\modules\hr\models\SettingsSearch;
+use app\modules\hrm\setting\models\Settings;
+use app\modules\hrm\setting\models\SettingsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * SettingsController implements the CRUD actions for Settings model.
+ * SettingController implements the CRUD actions for Settings model.
  */
-class SettingsController extends Controller
+class SettingController extends Controller
 {
     /**
      * {@inheritdoc}

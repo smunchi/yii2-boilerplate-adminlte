@@ -1,11 +1,11 @@
 <?php
 
-namespace app\modules\hr\controllers;
+namespace app\modules\hrm\controllers;
 
 use yii\web\Controller;
 
 /**
- * Default controller for the `hr` module
+ * Default controller for the `hrm` module
  */
 class DefaultController extends Controller
 {

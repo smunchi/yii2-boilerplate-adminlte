@@ -24,8 +24,8 @@
                         'icon' => 'user',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'hr', 'icon' => 'file-code-o', 'url' => ['/hr'],],
-                            ['label' => 'settings', 'icon' => 'fa fa-settings', 'url' => ['/hr/settings'],],
+                            ['label' => 'setting', 'icon' => 'file-code-o', 'url' => ['/hrm/setting/setting']],
+                            ['label' => 'stock', 'icon' => 'file-code-o', 'url' => ['/hrm/stock']],
                         ],
                     ],
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],

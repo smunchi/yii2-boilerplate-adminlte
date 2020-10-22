@@ -4,13 +4,14 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
 /* @var $this yii\web\View */
-/* @var $searchModel app\modules\hr\models\SettingsSearch */
+/* @var $searchModel app\modules\hr\setting\models\SettingsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('app', 'Settings');
 $this->params['breadcrumbs'][] = $this->title;
+\app\assets\SiteAsset::register($this);
 ?>
-<div class="settings-index">
+<div class="settings-index site-body">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

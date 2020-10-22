@@ -1,11 +1,11 @@
 <?php
 
-namespace app\modules\hr\models;
+namespace app\modules\hrm\setting\models;
 
 use Yii;
 
 /**
- * This is the model class for table "settings".
+ * This is the model class for table "setting".
  *
  * @property int $id
  * @property string $key

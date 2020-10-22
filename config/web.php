@@ -13,9 +13,9 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'modules' => [
-        'hr' => [
-           'class' => 'app\modules\hr\Module'
-        ]
+        'hrm' => [
+           'class' => 'app\modules\hrm\Module'
+        ],
     ],
     'components' => [
         'request' => [
